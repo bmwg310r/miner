@@ -1,0 +1,32 @@
+
+#main {
+height: 100vh;
+}
+
+  
+
+@keyframes blink {
+  100% { transform: scale(0.87); }
+}
+
+#person {
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    width: 112px;
+    height: 112px;
+    background-image: url("bilder/spritesheet.png");
+    background-position-x: 0;
+    background-position-y: calc(-112px * 2);
+    animation: walk 1s steps(8) infinite;
+   
+  }
+  @keyframes walk {
+    100% { background-position-x: calc( -112px * 8 ); }
+ }
+
+ 
+  }
+  
+
+  
