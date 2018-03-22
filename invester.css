@@ -1,4 +1,4 @@
-#div  {
+#btc  {
 position: absolute;
 top: 23%;
 width: 0;
@@ -14,3 +14,19 @@ left: 20%;
 
 
 }
+
+.svg-icon {
+    width: 10em;
+    height: 10em;
+    top: 10%;
+    left: 5%;
+    
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill:black;
+  }
+  
+ 

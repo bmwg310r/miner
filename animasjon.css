@@ -1,10 +1,7 @@
 
-#main {
+#walk {
 height: 100vh;
 }
-
-  
-
 @keyframes blink {
   100% { transform: scale(0.87); }
 }
